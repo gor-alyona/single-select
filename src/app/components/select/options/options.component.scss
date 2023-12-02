@@ -1,0 +1,18 @@
+.virtual_scroll__viewPort {
+  overflow: auto;
+  width: 100%;
+}
+
+.virtual_scroll__container {
+  width: 100%;
+}
+
+.option {
+  padding: 10px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #eee;
+}

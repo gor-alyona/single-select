@@ -1,0 +1,4 @@
+<form [formGroup]="form">
+  <ghg-select [items]="items" formControlName="select"/>
+  Value: {{form.get('select')?.getRawValue() | json}}    Touched: {{form.get('select')?.touched}}
+</form>

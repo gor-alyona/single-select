@@ -1,0 +1,11 @@
+<div class="virtual_scroll__viewPort" #viewPort>
+  <div class="virtual_scroll__container" #container>
+    <div #viewPortItems>
+      <ng-container *ngFor="let option of itemsForView; trackBy: trackById">
+        <div class="option" (click)="selectOption(option)">
+          {{ option.name }}
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>
